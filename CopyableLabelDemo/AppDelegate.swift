@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  CopyableLabelDemo
 //
-//  Created by Nuno Pereira on 08.09.18.
+//  Created by Nonnus on 08.09.18.
 //  Copyright © 2018 Silicon Studios. All rights reserved.
 //
 

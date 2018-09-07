@@ -12,7 +12,8 @@
 		9BE584B921433B1700A87571 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE584B721433B1700A87571 /* Main.storyboard */; };
 		9BE584BB21433B1800A87571 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BE584BA21433B1800A87571 /* Assets.xcassets */; };
 		9BE584BE21433B1800A87571 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE584BC21433B1800A87571 /* LaunchScreen.storyboard */; };
-		9BE584C921433B1800A87571 /* CopyableLabelDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE584C821433B1800A87571 /* CopyableLabelDemoTests.swift */; };
+		9BE584C921433B1800A87571 /* CopyableLabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE584C821433B1800A87571 /* CopyableLabelTests.swift */; };
+		9BE584D521433B7A00A87571 /* CopyableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE584D421433B7A00A87571 /* CopyableLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +35,9 @@
 		9BE584BD21433B1800A87571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BE584BF21433B1800A87571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BE584C421433B1800A87571 /* CopyableLabelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CopyableLabelDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9BE584C821433B1800A87571 /* CopyableLabelDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyableLabelDemoTests.swift; sourceTree = "<group>"; };
+		9BE584C821433B1800A87571 /* CopyableLabelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyableLabelTests.swift; sourceTree = "<group>"; };
 		9BE584CA21433B1800A87571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BE584D421433B7A00A87571 /* CopyableLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CopyableLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		9BE584A721433B1700A87571 = {
 			isa = PBXGroup;
 			children = (
+				9BE584D321433B7A00A87571 /* CopyableLabel */,
 				9BE584B221433B1700A87571 /* CopyableLabelDemo */,
 				9BE584C721433B1800A87571 /* CopyableLabelDemoTests */,
 				9BE584B121433B1700A87571 /* Products */,
@@ -90,10 +93,18 @@
 		9BE584C721433B1800A87571 /* CopyableLabelDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				9BE584C821433B1800A87571 /* CopyableLabelDemoTests.swift */,
+				9BE584C821433B1800A87571 /* CopyableLabelTests.swift */,
 				9BE584CA21433B1800A87571 /* Info.plist */,
 			);
 			path = CopyableLabelDemoTests;
+			sourceTree = "<group>";
+		};
+		9BE584D321433B7A00A87571 /* CopyableLabel */ = {
+			isa = PBXGroup;
+			children = (
+				9BE584D421433B7A00A87571 /* CopyableLabel.swift */,
+			);
+			path = CopyableLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +210,7 @@
 			files = (
 				9BE584B621433B1700A87571 /* ViewController.swift in Sources */,
 				9BE584B421433B1700A87571 /* AppDelegate.swift in Sources */,
+				9BE584D521433B7A00A87571 /* CopyableLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BE584C921433B1800A87571 /* CopyableLabelDemoTests.swift in Sources */,
+				9BE584C921433B1800A87571 /* CopyableLabelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
