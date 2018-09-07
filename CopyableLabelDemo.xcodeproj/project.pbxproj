@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BE584B421433B1700A87571 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE584B321433B1700A87571 /* AppDelegate.swift */; };
+		9BE584B621433B1700A87571 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE584B521433B1700A87571 /* ViewController.swift */; };
+		9BE584B921433B1700A87571 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE584B721433B1700A87571 /* Main.storyboard */; };
+		9BE584BB21433B1800A87571 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BE584BA21433B1800A87571 /* Assets.xcassets */; };
+		9BE584BE21433B1800A87571 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE584BC21433B1800A87571 /* LaunchScreen.storyboard */; };
+		9BE584C921433B1800A87571 /* CopyableLabelDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE584C821433B1800A87571 /* CopyableLabelDemoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BE584C521433B1800A87571 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BE584A821433B1700A87571 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BE584AF21433B1700A87571;
+			remoteInfo = CopyableLabelDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9BE584B021433B1700A87571 /* CopyableLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CopyableLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BE584B321433B1700A87571 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9BE584B521433B1700A87571 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9BE584B821433B1700A87571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BE584BA21433B1800A87571 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BE584BD21433B1800A87571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BE584BF21433B1800A87571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BE584C421433B1800A87571 /* CopyableLabelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CopyableLabelDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BE584C821433B1800A87571 /* CopyableLabelDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyableLabelDemoTests.swift; sourceTree = "<group>"; };
+		9BE584CA21433B1800A87571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BE584AD21433B1700A87571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BE584C121433B1800A87571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BE584A721433B1700A87571 = {
+			isa = PBXGroup;
+			children = (
+				9BE584B221433B1700A87571 /* CopyableLabelDemo */,
+				9BE584C721433B1800A87571 /* CopyableLabelDemoTests */,
+				9BE584B121433B1700A87571 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BE584B121433B1700A87571 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BE584B021433B1700A87571 /* CopyableLabelDemo.app */,
+				9BE584C421433B1800A87571 /* CopyableLabelDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BE584B221433B1700A87571 /* CopyableLabelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9BE584B321433B1700A87571 /* AppDelegate.swift */,
+				9BE584B521433B1700A87571 /* ViewController.swift */,
+				9BE584B721433B1700A87571 /* Main.storyboard */,
+				9BE584BA21433B1800A87571 /* Assets.xcassets */,
+				9BE584BC21433B1800A87571 /* LaunchScreen.storyboard */,
+				9BE584BF21433B1800A87571 /* Info.plist */,
+			);
+			path = CopyableLabelDemo;
+			sourceTree = "<group>";
+		};
+		9BE584C721433B1800A87571 /* CopyableLabelDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9BE584C821433B1800A87571 /* CopyableLabelDemoTests.swift */,
+				9BE584CA21433B1800A87571 /* Info.plist */,
+			);
+			path = CopyableLabelDemoTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BE584AF21433B1700A87571 /* CopyableLabelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BE584CD21433B1800A87571 /* Build configuration list for PBXNativeTarget "CopyableLabelDemo" */;
+			buildPhases = (
+				9BE584AC21433B1700A87571 /* Sources */,
+				9BE584AD21433B1700A87571 /* Frameworks */,
+				9BE584AE21433B1700A87571 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CopyableLabelDemo;
+			productName = CopyableLabelDemo;
+			productReference = 9BE584B021433B1700A87571 /* CopyableLabelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BE584C321433B1800A87571 /* CopyableLabelDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BE584D021433B1800A87571 /* Build configuration list for PBXNativeTarget "CopyableLabelDemoTests" */;
+			buildPhases = (
+				9BE584C021433B1800A87571 /* Sources */,
+				9BE584C121433B1800A87571 /* Frameworks */,
+				9BE584C221433B1800A87571 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BE584C621433B1800A87571 /* PBXTargetDependency */,
+			);
+			name = CopyableLabelDemoTests;
+			productName = CopyableLabelDemoTests;
+			productReference = 9BE584C421433B1800A87571 /* CopyableLabelDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BE584A821433B1700A87571 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Silicon Studios";
+				TargetAttributes = {
+					9BE584AF21433B1700A87571 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					9BE584C321433B1800A87571 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 9BE584AF21433B1700A87571;
+					};
+				};
+			};
+			buildConfigurationList = 9BE584AB21433B1700A87571 /* Build configuration list for PBXProject "CopyableLabelDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BE584A721433B1700A87571;
+			productRefGroup = 9BE584B121433B1700A87571 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BE584AF21433B1700A87571 /* CopyableLabelDemo */,
+				9BE584C321433B1800A87571 /* CopyableLabelDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BE584AE21433B1700A87571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BE584BE21433B1800A87571 /* LaunchScreen.storyboard in Resources */,
+				9BE584BB21433B1800A87571 /* Assets.xcassets in Resources */,
+				9BE584B921433B1700A87571 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BE584C221433B1800A87571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BE584AC21433B1700A87571 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BE584B621433B1700A87571 /* ViewController.swift in Sources */,
+				9BE584B421433B1700A87571 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BE584C021433B1800A87571 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BE584C921433B1800A87571 /* CopyableLabelDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BE584C621433B1800A87571 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BE584AF21433B1700A87571 /* CopyableLabelDemo */;
+			targetProxy = 9BE584C521433B1800A87571 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9BE584B721433B1700A87571 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BE584B821433B1700A87571 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9BE584BC21433B1800A87571 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BE584BD21433B1800A87571 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BE584CB21433B1800A87571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9BE584CC21433B1800A87571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BE584CE21433B1800A87571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CopyableLabelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.silicon-studios.CopyableLabelDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BE584CF21433B1800A87571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CopyableLabelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.silicon-studios.CopyableLabelDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9BE584D121433B1800A87571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CopyableLabelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.silicon-studios.CopyableLabelDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CopyableLabelDemo.app/CopyableLabelDemo";
+			};
+			name = Debug;
+		};
+		9BE584D221433B1800A87571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CopyableLabelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.silicon-studios.CopyableLabelDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CopyableLabelDemo.app/CopyableLabelDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BE584AB21433B1700A87571 /* Build configuration list for PBXProject "CopyableLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BE584CB21433B1800A87571 /* Debug */,
+				9BE584CC21433B1800A87571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BE584CD21433B1800A87571 /* Build configuration list for PBXNativeTarget "CopyableLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BE584CE21433B1800A87571 /* Debug */,
+				9BE584CF21433B1800A87571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BE584D021433B1800A87571 /* Build configuration list for PBXNativeTarget "CopyableLabelDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BE584D121433B1800A87571 /* Debug */,
+				9BE584D221433B1800A87571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BE584A821433B1700A87571 /* Project object */;
+}
